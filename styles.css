@@ -1,3 +1,42 @@
+.logo-microsoft {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.jp-flag {
+    width: 100px;
+    height: 100px;
+}
+
+.red-circle {
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ms-red {
+    background-color: #F25022;
+}
+.ms-green {
+    background-color: #7FBA00;
+}
+.ms-blue {
+    background-color: #00A4EF;
+}
+.ms-yellow {
+    background-color: #FFB900;
+}
+
 #window {
     display: none;
     z-index: 1;
